@@ -1,5 +1,5 @@
 {
-  "name": "Haruka-Md",
+  "name": "Nezabot",
   "version": "9.0.1",
   "description": "whatsapp tob with multi device.",
   "main": "haruka.js",
@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "npm i -g pm2 && pm2 haruka.js && pm2 save && pm2 logs"
+    "start": "node haruka.js"
   },
   "keywords": [
     "termux",
